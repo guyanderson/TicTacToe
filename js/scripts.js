@@ -2,38 +2,30 @@
 // function Player() {
 //   this.playerX = playerX;
 //   this.playerO = playerO;
-// }
-//
-// Player.prototype.mark = function(playerX, playerO) {
-//     if (playerX) {
-//     return "X";
-//     } else (playerO)
-//     {
-//      return "O";
-//     }
-//   }
-//
-// Player.prototype.choosePlayer = function () {
-//
-// };
+
+
+
 // user interface logic
 $(document).ready(function() {
 var turn = 0;
 var icon = 'X';
-var player = 'Player 1'
+var playerX = [];
+var playerO = [];
+// var square = parseInt($("div#id").val());
 
 $('.cell').click(function(){
   if($(this).html()==""){
     if (turn%2!==0) {
       icon = 'O';
-      player = 'Player 2';
+      $(this)[0].id;
     } else {
       icon = 'X';
-      player = 'Player 1';
+      $(this)[0].id;
     }
     $(this).html(icon);
-    // checkWin();
+    // checkWin in here
     turn++
   }
+  console.log($(this)[0].id);
 });
 });

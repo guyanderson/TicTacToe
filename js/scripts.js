@@ -25,7 +25,7 @@ var player = 'Player 1'
 $('.cell').click(function(){
   if($(this).html()==""){
     if (turn%2!==0) {
-      icon = "O";
+      icon = 'O';
       player = 'Player 2';
     } else {
       icon = 'X';

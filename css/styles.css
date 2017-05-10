@@ -1,0 +1,8 @@
+/*9x9 grid*/
+.grid {
+    float:left;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color: #f49e42;
+}

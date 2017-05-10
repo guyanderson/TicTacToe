@@ -1,8 +1,9 @@
 /*9x9 grid*/
-.grid {
+.cell {
     float:left;
     width: 30%;
     padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
     margin:1.66%;
     background-color: #f49e42;
+    border: 1px solid black;
 }

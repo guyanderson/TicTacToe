@@ -2,7 +2,7 @@
 
 #### An Epicodus exercise on object-oriented JavaScript, 05.10.17
 
-#### **By Anabel Ramirez**
+#### **By Anabel Ramirez Guy Anderson**
 
 ## Description
 
@@ -15,10 +15,10 @@ This web page will help a user find out if a year inputted is a leap year or not
 | A game should know which player's turn it is.  | player1  | player1  |
 | A game should be able to tell if the game is over or not.  | "x""x""x"  | game over, player1 wins.  |
 | A board should create 9 spaces with the proper coordinates.  | space.mark  | board.find(1, 2)  |
+| A space should know its coordinates.  | space.mark  | board.find(1, 2) |
 | A board should tell if there are three in a row marked by the same player. | space.mark(player_X)  | "x""x""x"  |
 | A board should be able to return a space by its coordinates.  | space.mark(player_X)  | board.find(1, 2)  |
 | A player should know whether it's an X or an O and be able to report that.  | player.mark()  | "X" or "O"  |
-| A space should know its coordinates.  | space.mark  | board.find(1, 2) |
 | A space should be able to be marked by a player.  | space.mark(player_X)  | "X"  |
 | A space should be able to report who it's marked by. | space.markedby()  | "X" or "O" or a player object - player1 or player2 |
 
@@ -45,4 +45,4 @@ If you have any issues or have questions, ideas, concerns, or contributions plea
 ### License
 This software is licensed under the MIT license.
 
-Copyright (c) 2017 **Anabel Ramirez**
+Copyright (c) 2017 **Anabel Ramirez, Guy Anderson**
